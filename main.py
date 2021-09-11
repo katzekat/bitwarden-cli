@@ -37,6 +37,10 @@ def copy_to_clipboard():
 
 if __name__ == '__main__':
     os.environ["NODE_NO_WARNINGS"] = "1"
+    if len(sys.argv) != 2:
+        print('Invalid arguments')
+        exit(-1)
+
     search_result_raw = search(sys.argv[1])
     iterate_json()
     selected_entry = get_user_input()
