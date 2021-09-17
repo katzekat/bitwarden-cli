@@ -1,5 +1,5 @@
 # bitwarden-cli
-A simple python wrapper around the bitwarden-cli
+A simple python wrapper around the bitwarden-cli. You will need to also install pyperclip.
 
 To use this first install the bitwarden-cli packages as outlined in https://bitwarden.com/help/article/cli/
 
